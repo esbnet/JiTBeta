@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#292D3D</color>
+    <color name="graylight">#fafafa</color>
+    <color name="startgradiente">#febc03</color>
+    <color name="endgradiente">#f9e493</color>
+
+    <color name="icone">#f9e493</color>
+
+
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="git_background">#febc03</color>
+    <color name="git_Titulo">#36312a</color>
+    <color name="login_campos">#11000000</color>
+    <color name="campos">#ffffff</color>
+    <color name="jit_botao">#fde56c</color>
+</resources>

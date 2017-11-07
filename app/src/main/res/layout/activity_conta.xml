@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="esbdev.com.br.jit_beta.ContaActivity">
+
+    <TextView
+        style="@style/Titulo"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Conta JiT" />
+
+    <EditText
+        android:id="@+id/nome_id"
+        style="@style/Campo"
+        android:drawableLeft="@drawable/ic_conta"
+        android:hint="Nome" />
+
+    <EditText
+        android:id="@+id/email_id"
+        style="@style/Campo"
+        android:drawableLeft="@drawable/ic_email"
+        android:hint="E-mail" />
+
+    <EditText
+        android:id="@+id/celular_id"
+        style="@style/Campo"
+        android:drawableLeft="@drawable/ic_celular"
+        android:hint="Celular" />
+
+    <EditText
+        android:id="@+id/senha_id"
+        style="@style/Campo"
+        android:drawableLeft="@drawable/ic_senha"
+        android:hint="Senha" />
+
+    <EditText
+        android:id="@+id/confirmasenha_idsenha_id"
+        style="@style/Campo"
+        android:drawableLeft="@drawable/ic_senha"
+        android:hint="Confirma Senha" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/bt_conta_gravar_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/botoes"
+            android:text="gravar" />
+
+        <Button
+            android:id="@+id/bt_conta_cancelar_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botoes"
+            android:text="cancelar" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

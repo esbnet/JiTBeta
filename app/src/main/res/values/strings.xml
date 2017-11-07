@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Just In Time - JiT</string>
+    <string name="login_TextView_AppName">Just In Time</string>
+    <string name="login_TextView_Slogan">Comodidade Ao Alcance Das Mãos</string>
+    <string name="login_EditText_Email">Usuário</string>
+    <string name="login_EditText_Senha">Senha</string>
+    <string name="login_Botao_Login">Login</string>
+    <string name="Conta_Criada_True">Bem vindo ao Jit!</string>
+</resources>
